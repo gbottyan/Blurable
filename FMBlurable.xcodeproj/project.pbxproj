@@ -14,9 +14,9 @@
 		05C052371BAC9FC700D0108A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05C052351BAC9FC700D0108A /* LaunchScreen.storyboard */; };
 		05C052421BAC9FC700D0108A /* FMBlurableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C052411BAC9FC700D0108A /* FMBlurableTests.swift */; };
 		05C0524D1BAC9FC700D0108A /* FMBlurableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C0524C1BAC9FC700D0108A /* FMBlurableUITests.swift */; };
-		05C0525E1BACA49200D0108A /* FMBlurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C0525D1BACA49200D0108A /* FMBlurable.swift */; settings = {ASSET_TAGS = (); }; };
-		05EF481A1BB58FE8004EB3D2 /* SliderWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EF48191BB58FE8004EB3D2 /* SliderWidget.swift */; settings = {ASSET_TAGS = (); }; };
-		05EF481C1BB59201004EB3D2 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 05EF481B1BB59201004EB3D2 /* assets */; settings = {ASSET_TAGS = (); }; };
+		05C0525E1BACA49200D0108A /* FMBlurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C0525D1BACA49200D0108A /* FMBlurable.swift */; };
+		05EF481A1BB58FE8004EB3D2 /* SliderWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EF48191BB58FE8004EB3D2 /* SliderWidget.swift */; };
+		05EF481C1BB59201004EB3D2 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 05EF481B1BB59201004EB3D2 /* assets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -233,6 +233,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -430,6 +431,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.flexmonkey.FMBlurable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -441,6 +443,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.flexmonkey.FMBlurable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
